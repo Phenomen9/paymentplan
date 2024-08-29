@@ -1,0 +1,46 @@
+/* Dropdown.css */
+
+/* Styling for the dropdown container */
+.country-dropdown {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    background-color: #D1D1D1; /* Light background for the dropdown */
+    color: #333; /* Dark text color */
+    font-weight: 400; /* Regular font weight */
+    transition: border-color 0.3s ease;
+}
+
+/* Change border color on focus */
+.country-dropdown:focus {
+    border-color: #6a16eb; /* Highlight border on focus */
+    outline: none; /* Remove default outline */
+}
+
+/* Styling for the bank options */
+.bank-options {
+    margin-top: 10px;
+}
+
+/* Styling for bank option labels */
+.bank-options label {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f3f3f3; /* Light background for the bank options */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Change background color on hover */
+.bank-options label:hover {
+    background-color: #e8e8e8; /* Darker background on hover */
+}
+
+/* Change color when bank option is selected */
+.bank-options input[type="radio"]:checked + span {
+    color: #6a16eb; /* Highlight color for selected bank */
+}

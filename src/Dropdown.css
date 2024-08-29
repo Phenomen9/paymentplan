@@ -1,0 +1,49 @@
+/* Dropdown Styles */
+.country-selection {
+    margin: 20px 0;
+}
+
+.country-dropdown {
+    width: 100%; /* Full width */
+    padding: 10px; /* Padding inside the dropdown */
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 14px; /* Font size */
+    color: #333; /* Text color */
+    background-color: #D1D1D1; /* Background color */
+    cursor: pointer; /* Pointer cursor */
+    margin-top: -31px;
+    margin-bottom: 10px;
+    transition: border-color 0.3s ease; /* Transition effect */
+}
+
+.country-dropdown:hover {
+    border-color: #888; /* Border color on hover */
+}
+
+.country-dropdown:focus {
+    outline: none; /* Remove default outline */
+    border-color: #6a16eb; /* Border color on focus */
+}
+
+/* Bank options styles */
+.bank-options {
+    margin-top: 10px;
+}
+
+.bank-options label {
+    display: block; /* Stack the bank options vertically */
+    padding: 10px; /* Padding around each option */
+    border: 1px solid #ddd; /* Border for each option */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    transition: background-color 0.3s ease; /* Transition effect */
+}
+
+.bank-options input[type="radio"] {
+    margin-right: 8px; /* Space between radio button and label */
+}
+
+.bank-options label:hover {
+    background-color: #f0f0f0; /* Background color on hover */
+}
